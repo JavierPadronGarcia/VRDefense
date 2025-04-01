@@ -68,7 +68,7 @@ public class SimpleCollectibleScript : MonoBehaviour
         {
 
             //Add in code here;
-
+            Destroy(this.gameObject);
             Debug.Log("Do NoType Command");
         }
         if (CollectibleType == CollectibleTypes.Type3)
