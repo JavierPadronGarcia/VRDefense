@@ -10,6 +10,7 @@ public class MeleeEnemyMovement : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
+        player = Camera.main.transform;
     }
 
     void Update()
