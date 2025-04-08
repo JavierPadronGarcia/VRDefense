@@ -122,6 +122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arma_model
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5d45a26c74c4643468b742f699839770, type: 3}
+      propertyPath: m_TagString
+      value: gun_sword
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
