@@ -73,10 +73,8 @@ public class SimpleCollectibleScript : MonoBehaviour
         }
         if (CollectibleType == CollectibleTypes.Type3)
         {
-
-            //Add in code here;
-
-            Debug.Log("Do NoType Command");
+            //funcionalidad del corazon (sumar vida por ejemplo)
+            Destroy(this.gameObject);
         }
         if (CollectibleType == CollectibleTypes.Type4)
         {
