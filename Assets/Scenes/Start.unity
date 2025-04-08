@@ -1243,6 +1243,7 @@ GameObject:
   - component: {fileID: 626512394}
   - component: {fileID: 626512393}
   - component: {fileID: 626512392}
+  - component: {fileID: 626512395}
   m_Layer: 5
   m_Name: Texto 3
   m_TagString: Untagged
@@ -1334,6 +1335,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &626512395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626512390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd418ca467959b948a7ecab24054137f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &670872573
 GameObject:
   m_ObjectHideFlags: 0
@@ -2475,6 +2488,7 @@ GameObject:
   - component: {fileID: 1429629197}
   - component: {fileID: 1429629196}
   - component: {fileID: 1429629195}
+  - component: {fileID: 1429629198}
   m_Layer: 5
   m_Name: Texto 1
   m_TagString: Untagged
@@ -2565,6 +2579,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1429629198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429629193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd418ca467959b948a7ecab24054137f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1496868798
 GameObject:
   m_ObjectHideFlags: 0
@@ -2622,6 +2648,7 @@ GameObject:
   - component: {fileID: 1497130411}
   - component: {fileID: 1497130410}
   - component: {fileID: 1497130409}
+  - component: {fileID: 1497130412}
   m_Layer: 5
   m_Name: Texto 2
   m_TagString: Untagged
@@ -2712,6 +2739,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1497130412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497130407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd418ca467959b948a7ecab24054137f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1539743231
 GameObject:
   m_ObjectHideFlags: 0
@@ -2724,6 +2763,7 @@ GameObject:
   - component: {fileID: 1539743235}
   - component: {fileID: 1539743234}
   - component: {fileID: 1539743233}
+  - component: {fileID: 1539743236}
   m_Layer: 5
   m_Name: Texto 4
   m_TagString: Untagged
@@ -2814,6 +2854,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1539743236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539743231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd418ca467959b948a7ecab24054137f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1551735127
 GameObject:
   m_ObjectHideFlags: 0
