@@ -84,7 +84,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &8313458994143154165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -320,7 +320,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 172.59, y: 62.18, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &9103345348999206937
 MonoBehaviour:
@@ -540,8 +540,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 186.68, y: 74.99, z: 0}
+  m_Center: {x: 0, y: 0, z: 0.5}
 --- !u!114 &4113661745194819989
 MonoBehaviour:
   m_ObjectHideFlags: 0
