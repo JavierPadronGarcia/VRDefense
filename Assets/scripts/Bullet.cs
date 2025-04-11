@@ -6,7 +6,14 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            Destroy(collision.gameObject);
+            if (collision.gameObject.name.Equals("naveEspacial"))
+            {
+                Destroy(collision.transform.parent.gameObject);
+            }
+            else
+            {
+                Destroy(collision.gameObject);
+            }
         }
         Destroy(gameObject);
     }

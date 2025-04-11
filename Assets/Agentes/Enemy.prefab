@@ -11,13 +11,12 @@ GameObject:
   - component: {fileID: 2502167542402663232}
   - component: {fileID: 4721437493195964478}
   - component: {fileID: 2139328763129227734}
-  - component: {fileID: 481841507243200855}
   - component: {fileID: 6560272271624429361}
-  - component: {fileID: 8399524763612181289}
   - component: {fileID: 3389996856296031997}
+  - component: {fileID: 2604351058307544577}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,9 +29,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7092884245035568513}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.51, z: 7.28}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3526205176302527281}
@@ -73,18 +72,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
---- !u!114 &481841507243200855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7092884245035568513}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d66e5fefa0f54c4f817fd6e8f680abc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &6560272271624429361
 AudioSource:
   m_ObjectHideFlags: 0
@@ -182,23 +169,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &8399524763612181289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7092884245035568513}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 465553768b307794b991e72d1cd17951, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollectibleType: 2
-  rotate: 0
-  rotationSpeed: 0
-  collectSound: {fileID: 0}
-  collectEffect: {fileID: 0}
 --- !u!136 &3389996856296031997
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -222,6 +192,33 @@ CapsuleCollider:
   m_Height: 1.4473152
   m_Direction: 1
   m_Center: {x: 0, y: 0.71912885, z: 0}
+--- !u!54 &2604351058307544577
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7092884245035568513}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &3991633554140988634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -281,6 +278,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bfe43a18d7333074a90c10546aa7714c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9031147388503175569}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bfe43a18d7333074a90c10546aa7714c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1966308646580881389}
   m_SourcePrefab: {fileID: 100100000, guid: bfe43a18d7333074a90c10546aa7714c, type: 3}
 --- !u!4 &3526205176302527281 stripped
 Transform:
@@ -314,3 +314,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1966308646580881389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4297639385208699275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd418ca467959b948a7ecab24054137f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowVerticalPan: 0
+  fixInvertedRotation: 0
