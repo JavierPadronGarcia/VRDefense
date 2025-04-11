@@ -44,7 +44,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 4
-  m_Speed: 10
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -152,6 +152,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 307ff1727697191488c4c54594c1ae93, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6811758168553205007}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 307ff1727697191488c4c54594c1ae93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1901960214822788201}
     - targetCorrespondingSourceObject: {fileID: 4784399107353521140, guid: 307ff1727697191488c4c54594c1ae93, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9185738243477983116}
@@ -311,3 +314,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.455246, y: 1.5167179, z: 5.186043}
   m_Center: {x: -0.0000076293945, y: 0.62, z: -2.0930214}
+--- !u!114 &1901960214822788201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6573678700618177768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd418ca467959b948a7ecab24054137f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowVerticalPan: 1
+  fixInvertedRotation: 0

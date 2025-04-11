@@ -12,6 +12,7 @@ public class SpaceshipMovement : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateUpAxis = false;
         agent.updateRotation = false;
+        player = Camera.main.transform;
     }
 
     // Update is called once per frame
