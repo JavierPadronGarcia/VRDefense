@@ -7,7 +7,14 @@ public class SwordController : MonoBehaviour
     {
         if (collision.collider.CompareTag("Enemy"))
         {
+            AudioManager.instance.PlaySFX("sword");
             Destroy(collision.collider.gameObject);
+        }
+
+        if (collision.collider.CompareTag("heart"))
+        {
+            Destroy(collision.gameObject);
+            AudioManager.instance.PlaySFX("coin_heart");
         }
     }
 }

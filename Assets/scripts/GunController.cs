@@ -60,6 +60,7 @@ public class GunController : MonoBehaviour
         {
             rb.linearVelocity = shootPoint.forward * bulletVelocity;
         }
+        AudioManager.instance.PlaySFX("laser");
     }
 
 }

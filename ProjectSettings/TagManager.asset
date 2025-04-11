@@ -8,6 +8,7 @@ TagManager:
   - gun_sword
   - gun_bullet
   - Enemy
+  - heart
   layers:
   - Default
   - TransparentFX

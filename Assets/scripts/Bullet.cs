@@ -15,6 +15,13 @@ public class Bullet : MonoBehaviour
                 Destroy(collision.gameObject);
             }
         }
+
+        if (collision.gameObject.CompareTag("heart"))
+        {
+            Destroy(collision.gameObject);
+            AudioManager.instance.PlaySFX("coin_heart");
+        }
+
         Destroy(gameObject);
     }
 }
