@@ -69,12 +69,4 @@ public class AudioManager : MonoBehaviour
         sfxSource.volume = volume;
     }
 
-    private void Start()
-    {
-        if (musicClips.Count > 0)
-        {
-            PlayMusic(PlayerPrefs.GetInt("DropdownValue"));
-        }
-        SetVolume(PlayerPrefs.GetFloat("SliderValue"));
-    }
 }
