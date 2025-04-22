@@ -11,11 +11,11 @@ public class ExitController : MonoBehaviour
         #endif
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("gun_bullet") || collision.gameObject.CompareTag("gun_sword"))
-        {
-            ExitScene();
-        }
-    }
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    if (collision.gameObject.CompareTag("gun_bullet") || collision.gameObject.CompareTag("gun_sword"))
+    //    {
+    //        ExitScene();
+    //    }
+    //}
 }
